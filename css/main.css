@@ -38,7 +38,7 @@ nav img {
 }
 
 nav a {
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 15px;
   text-decoration: none;
   color: black;
@@ -139,7 +139,7 @@ div.hamburger {
 
 #carte {
   height: 10vh;
-  animation: carte1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: carte1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes carte1 {
   0% {transform: translate(30vw, 100vh);}
@@ -148,7 +148,7 @@ div.hamburger {
 
 #cactus {
   height: 28vh;
-  animation: cactus1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: cactus1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes cactus1 {
   0% {transform: translate(60vw, 100vh);}
@@ -157,7 +157,7 @@ div.hamburger {
 
 #doigt_honneur {
   height: 17vh;
-  animation: doigt_honneur1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: doigt_honneur1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes doigt_honneur1 {
   0% {transform: translate(3vw, 100vh);}
@@ -166,7 +166,7 @@ div.hamburger {
 
 #adobeIndesign {
   height: 10vh;
-  animation: adobeIndesign1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: adobeIndesign1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes adobeIndesign1 {
   0% {transform: translate(25vw, 100vh);}
@@ -175,7 +175,7 @@ div.hamburger {
 
 #adobePhotoshop {
   height: 10vh;
-  animation: adobePhotoshop1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: adobePhotoshop1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes adobePhotoshop1 {
   0% {transform: translate(3vw, 100vh);}
@@ -184,7 +184,7 @@ div.hamburger {
 
 #adobeIllustrator {
   height: 10vh;
-  animation: adobeIllustrator1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: adobeIllustrator1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes adobeIllustrator1 {
   0% {transform: translate(83vw, 100vh);}
@@ -193,7 +193,7 @@ div.hamburger {
 
 #briquet {
   height: 6vh;
-  animation: briquet1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: briquet1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes briquet1 {
   0% {transform: translate(60vw, 100vh);}
@@ -202,7 +202,7 @@ div.hamburger {
 
 #bouteille_eau {
   height: 20vh;
-  animation: bouteille_eau1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: bouteille_eau1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes bouteille_eau1 {
   0% {transform: translate(20vw, 100vh);}
@@ -211,7 +211,7 @@ div.hamburger {
 
 #bière {
   height: 10vh;
-  animation: bière1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: bière1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes bière1 {
   0% {transform: translate(15vw, 100vh);}
@@ -220,7 +220,7 @@ div.hamburger {
 
 #chat {
   height: 30vh;
-  animation: chat1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: chat1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes chat1 {
   0% {transform: translate(65vw, 100vh);}
@@ -229,7 +229,7 @@ div.hamburger {
 
 #chaussette {
   height: 30vh;
-  animation: chaussette1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: chaussette1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes chaussette1 {
   0% {transform: translate(65vw, 100vh);}
@@ -238,7 +238,7 @@ div.hamburger {
 
 #carnet {
   height: 20vh;
-  animation: carnet1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: carnet1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes carnet1 {
   0% {transform: translate(1vw, 100vh);}
@@ -247,7 +247,7 @@ div.hamburger {
 
 #cigaretteA {
   height: 8vh;
-  animation: cigaretteA1 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: cigaretteA1 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes cigaretteA1 {
   0% {transform: translate(15vw, 100vh);}
@@ -256,7 +256,7 @@ div.hamburger {
 
 #cigaretteB {
   height: 8vh;
-  animation: cigaretteB1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: cigaretteB1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes cigaretteB1 {
   0% {transform: translate(40vw, 100vh);}
@@ -265,7 +265,7 @@ div.hamburger {
 
 #cigaretteC {
   height: 8vh;
-  animation: cigaretteC1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: cigaretteC1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes cigaretteC1 {
   0% {transform: translate(70vw, 100vh);}
@@ -274,7 +274,7 @@ div.hamburger {
 
 #culotte {
   height: 20vh;
-  animation: culotte1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: culotte1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes culotte1 {
   0% {transform: translate(45vw, 100vh);}
@@ -283,7 +283,7 @@ div.hamburger {
 
 #collier {
   height: 22vh;
-  animation: collier1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: collier1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes collier1 {
   0% {transform: translate(30vw, 100vh);}
@@ -292,7 +292,7 @@ div.hamburger {
 
 #couronne_fleurs {
   height: 19vh;
-  animation: couronne_fleurs1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: couronne_fleurs1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes couronne_fleurs1 {
   0% {transform: translate(45vw, 100vh);}
@@ -301,7 +301,7 @@ div.hamburger {
 
 #clitoris {
   height: 10vh;
-  animation: clitoris1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: clitoris1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes clitoris1 {
   0% {transform: translate(40vw, 100vh);}
@@ -310,7 +310,7 @@ div.hamburger {
 
 #iPhone {
   height: 14vh;
-  animation: iPhone1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: iPhone1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes iPhone1 {
   0% {transform: translate(50vw, 100vh);}
@@ -319,7 +319,7 @@ div.hamburger {
 
 #jetable {
   height: 7vh;
-  animation: jetable1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: jetable1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes jetable1 {
   0% {transform: translate(25vw, 100vh);}
@@ -328,7 +328,7 @@ div.hamburger {
 
 #kiki {
   height: 17vh;
-  animation: kiki1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: kiki1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes kiki1 {
   0% {transform: translate(90vw, 100vh);}
@@ -337,7 +337,7 @@ div.hamburger {
 
 #tasse {
   height: 7vh;
-  animation: tasse1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: tasse1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes tasse1 {
   0% {transform: translate(55vw, 100vh);}
@@ -346,7 +346,7 @@ div.hamburger {
 
 #lierre {
   height: 25vh;
-  animation: lierre1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: lierre1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes lierre1 {
   0% {transform: translate(8vw, 100vh);}
@@ -355,7 +355,7 @@ div.hamburger {
 
 #livre {
   height: 10vh;
-  animation: livre1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: livre1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes livre1 {
   0% {transform: translate(22vw, 100vh);}
@@ -364,7 +364,7 @@ div.hamburger {
 
 #lunettes {
   height: 5vh;
-  animation: lunettes1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: lunettes1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes lunettes1 {
   0% {transform: translate(25vw, 100vh);}
@@ -373,7 +373,7 @@ div.hamburger {
 
 #MacBook {
   height: 40vh;
-  animation: MacBook1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: MacBook1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes MacBook1 {
   0% {transform: translate(80vw, 100vh);}
@@ -382,7 +382,7 @@ div.hamburger {
 
 #parfum {
   height: 15vh;
-  animation: parfum1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: parfum1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes parfum1 {
   0% {transform: translate(35vw, 100vh);}
@@ -392,7 +392,7 @@ div.hamburger {
 
 #photoA {
   height: 10vh;
-  animation: photoA1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: photoA1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes photoA1 {
   0% {transform: translate(77vw, 100vh);}
@@ -402,7 +402,7 @@ div.hamburger {
 
 #photoL {
   height: 10vh;
-  animation: photoL1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: photoL1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes photoL1 {
   0% {transform: translate(17vw, 100vh);}
@@ -412,7 +412,7 @@ div.hamburger {
 
 #photoK {
   height: 10vh;
-  animation: photoK1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: photoK1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes photoK1 {
   0% {transform: translate(55vw, 100vh);}
@@ -422,7 +422,7 @@ div.hamburger {
 
 #rouge {
   height: 7vh;
-  animation: rouge1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: rouge1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes rouge1 {
   0% {transform: translate(40vw, 100vh);}
@@ -432,7 +432,7 @@ div.hamburger {
 
 #pinceau1 {
   height: 15vh;
-  animation: pinceau1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: pinceau1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes pinceau1 {
   0% {transform: translate(2vw, 100vh);}
@@ -442,7 +442,7 @@ div.hamburger {
 
 #pinceau2 {
   height: 12vh;
-  animation: pinceau2 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: pinceau2 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes pinceau2 {
   0% {transform: translate(93vw, 100vh);}
@@ -452,7 +452,7 @@ div.hamburger {
 
 #tablette {
   height: 25vh;
-  animation: tablette1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: tablette1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes tablette1 {
   0% {transform: translate(65vw, 100vh);}
@@ -461,7 +461,7 @@ div.hamburger {
 
 #vase {
   height: 20vh;
-  animation: vase1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: vase1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes vase1 {
   0% {transform: translate(85vw, 100vh);}
@@ -471,7 +471,7 @@ div.hamburger {
 /* position fixe du logo  */
 #logo {
   height: 30vh;
-  animation: logo1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+  animation: logo1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0S 1 normal both;
 }
 @keyframes logo1 {
   0% {transform: translate(calc(50vw - 30%), 100vh);}

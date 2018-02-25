@@ -1,12 +1,16 @@
 
+
+
 (function ($) {
+
+      //loader
+  $(window).on('load', function() {
+    // Animate loader off screen
+    $("#se-pre-con").fadeOut(800);;
+  });
 
   $(document).ready(function(){
 
-    //loader
-    $(function () {
-        $("#se-pre-con").fadeOut(1000);
-    });
     // hide .navbar first
     $("nav").hide();
     // fade in .navbar
