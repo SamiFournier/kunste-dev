@@ -1,6 +1,12 @@
+
 (function ($) {
+
   $(document).ready(function(){
 
+    //loader
+    $(function () {
+        $("#se-pre-con").fadeOut(1000);
+    });
     // hide .navbar first
     $("nav").hide();
     // fade in .navbar
@@ -25,6 +31,13 @@
         });
     });
 
+    // startGIF
+    var randomStart = setInterval(function(){
+      var random = Math.floor(Math.random()*4)+1;
+      var imgSrc = "./images/homepage/start" + random + ".png";
+      $("#start").attr("src", imgSrc);
+    }, 200);
+
 
 });
-  }(jQuery));
+}(jQuery));
