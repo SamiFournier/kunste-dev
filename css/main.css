@@ -1,0 +1,505 @@
+/* Général */
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navbar  */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+nav img {
+  height: 55px;
+}
+
+nav a {
+  font-size: 25px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+}
+
+
+@media screen and (max-width: 920px) {
+  nav {
+    justify-content: center;
+  }
+  nav a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  nav a {
+    margin: 10px 15px;
+  }
+}
+
+/* burger  */
+
+div.hamburger {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  margin: 20px;
+  font-size: 35px;
+  z-index: 100;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  div.hamburger {
+    display: block;
+  }
+}
+
+/* Home */
+
+#main {
+  max-width: 100vw;
+  background: url(../images/homepage/fond_circus.png) no-repeat center center fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+#home {
+  min-height: 200vh;
+}
+
+#home img {
+  position: absolute;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  max-width: 100vw;
+}
+
+ /* 3 bounces animation  */
+
+#bounce1 {
+  animation: bounce1 4s linear 2s infinite normal both;
+}
+@keyframes bounce1 {
+  0% {transform: translate(0px, 0px);}
+  25% {transform: translate(0px, -10px);}
+  75% {transform: translate(0px, 10px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+#bounce2 {
+  animation: bounce2 2s linear 2s infinite normal both;
+}
+@keyframes bounce2 {
+  0% {transform: translate(0px, 0px);}
+  25% {transform: translate(0px, -10px);}
+  75% {transform: translate(0px, 10px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+#bounce3 {
+  animation: bounce2 2s linear 2s infinite normal both;
+}
+@keyframes bounce2 {
+  0% {transform: translate(0px, 0px);}
+  25% {transform: translate(0px, -10px);}
+  75% {transform: translate(0px, 10px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+/* Position de chaque images  */
+
+#carte {
+  height: 10vh;
+  animation: carte1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes carte1 {
+  0% {transform: translate(30vw, 100vh);}
+  100% {transform: translate(30vw, 30vh);}
+}
+
+#cactus {
+  height: 28vh;
+  animation: cactus1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes cactus1 {
+  0% {transform: translate(60vw, 100vh);}
+  100% {transform: translate(60vw, 70vh);}
+}
+
+#doigt_honneur {
+  height: 17vh;
+  animation: doigt_honneur1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes doigt_honneur1 {
+  0% {transform: translate(3vw, 100vh);}
+  100% {transform: translate(3vw, 20vh);}
+}
+
+#adobeIndesign {
+  height: 10vh;
+  animation: adobeIndesign1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes adobeIndesign1 {
+  0% {transform: translate(25vw, 100vh);}
+  100% {transform: translate(25vw, 60vh);}
+}
+
+#adobePhotoshop {
+  height: 10vh;
+  animation: adobePhotoshop1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes adobePhotoshop1 {
+  0% {transform: translate(3vw, 100vh);}
+  100% {transform: translate(3vw, 3vh);}
+}
+
+#adobeIllustrator {
+  height: 10vh;
+  animation: adobeIllustrator1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes adobeIllustrator1 {
+  0% {transform: translate(83vw, 100vh);}
+  100% {transform: translate(83vw, 7vh);}
+}
+
+#briquet {
+  height: 6vh;
+  animation: briquet1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes briquet1 {
+  0% {transform: translate(60vw, 100vh);}
+  100% {transform: translate(60vw, 40vh);}
+}
+
+#bouteille_eau {
+  height: 20vh;
+  animation: bouteille_eau1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes bouteille_eau1 {
+  0% {transform: translate(20vw, 100vh);}
+  100% {transform: translate(20vw, 20vh);}
+}
+
+#bière {
+  height: 10vh;
+  animation: bière1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes bière1 {
+  0% {transform: translate(15vw, 100vh);}
+  100% {transform: translate(15vw, 12vh);}
+}
+
+#chat {
+  height: 30vh;
+  animation: chat1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes chat1 {
+  0% {transform: translate(65vw, 100vh);}
+  100% {transform: translate(65vw, 2vh);}
+}
+
+#chaussette {
+  height: 30vh;
+  animation: chaussette1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes chaussette1 {
+  0% {transform: translate(65vw, 100vh);}
+  100% {transform: translate(65vw, 40vh);}
+}
+
+#carnet {
+  height: 20vh;
+  animation: carnet1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes carnet1 {
+  0% {transform: translate(1vw, 100vh);}
+  100% {transform: translate(1vw, 60vh);}
+}
+
+#cigaretteA {
+  height: 8vh;
+  animation: cigaretteA1 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes cigaretteA1 {
+  0% {transform: translate(15vw, 100vh);}
+  100% {transform: translate(15vw, 3vh);}
+}
+
+#cigaretteB {
+  height: 8vh;
+  animation: cigaretteB1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes cigaretteB1 {
+  0% {transform: translate(40vw, 100vh);}
+  100% {transform: translate(40vw, 30vh);}
+}
+
+#cigaretteC {
+  height: 8vh;
+  animation: cigaretteC1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes cigaretteC1 {
+  0% {transform: translate(70vw, 100vh);}
+  100% {transform: translate(70vw, 30vh);}
+}
+
+#culotte {
+  height: 20vh;
+  animation: culotte1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes culotte1 {
+  0% {transform: translate(45vw, 100vh);}
+  100% {transform: translate(45vw, 70vh);}
+}
+
+#collier {
+  height: 22vh;
+  animation: collier1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes collier1 {
+  0% {transform: translate(30vw, 100vh);}
+  100% {transform: translate(30vw, 2vh);}
+}
+
+#couronne_fleurs {
+  height: 19vh;
+  animation: couronne_fleurs1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes couronne_fleurs1 {
+  0% {transform: translate(45vw, 100vh);}
+  100% {transform: translate(45vw, 5vh);}
+}
+
+#clitoris {
+  height: 10vh;
+  animation: clitoris1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes clitoris1 {
+  0% {transform: translate(40vw, 100vh);}
+  100% {transform: translate(40vw, 12vh);}
+}
+
+#iPhone {
+  height: 14vh;
+  animation: iPhone1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes iPhone1 {
+  0% {transform: translate(50vw, 100vh);}
+  100% {transform: translate(50vw, 27vh);}
+}
+
+#jetable {
+  height: 7vh;
+  animation: jetable1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes jetable1 {
+  0% {transform: translate(25vw, 100vh);}
+  100% {transform: translate(25vw, 50vh);}
+}
+
+#kiki {
+  height: 17vh;
+  animation: kiki1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes kiki1 {
+  0% {transform: translate(90vw, 100vh);}
+  100% {transform: translate(90vw, 70vh);}
+}
+
+#tasse {
+  height: 7vh;
+  animation: tasse1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes tasse1 {
+  0% {transform: translate(55vw, 100vh);}
+  100% {transform: translate(55vw, 25vh);}
+}
+
+#lierre {
+  height: 25vh;
+  animation: lierre1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes lierre1 {
+  0% {transform: translate(8vw, 100vh);}
+  100% {transform: translate(8vw, 33vh);}
+}
+
+#livre {
+  height: 10vh;
+  animation: livre1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes livre1 {
+  0% {transform: translate(22vw, 100vh);}
+  100% {transform: translate(22vw, 80vh);}
+}
+
+#lunettes {
+  height: 5vh;
+  animation: lunettes1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes lunettes1 {
+  0% {transform: translate(25vw, 100vh);}
+  100% {transform: translate(25vw, 90vh);}
+}
+
+#MacBook {
+  height: 40vh;
+  animation: MacBook1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes MacBook1 {
+  0% {transform: translate(80vw, 100vh);}
+  100% {transform: translate(80vw, 20vh);}
+}
+
+#parfum {
+  height: 15vh;
+  animation: parfum1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes parfum1 {
+  0% {transform: translate(35vw, 100vh);}
+  100% {transform: translate(35vw, 57vh);}
+}
+
+
+#photoA {
+  height: 10vh;
+  animation: photoA1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes photoA1 {
+  0% {transform: translate(77vw, 100vh);}
+  100% {transform: translate(77vw, 92vh);}
+}
+
+
+#photoL {
+  height: 10vh;
+  animation: photoL1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes photoL1 {
+  0% {transform: translate(17vw, 100vh);}
+  100% {transform: translate(17vw, 92vh);}
+}
+
+
+#photoK {
+  height: 10vh;
+  animation: photoK1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes photoK1 {
+  0% {transform: translate(55vw, 100vh);}
+  100% {transform: translate(55vw, 7vh);}
+}
+
+
+#rouge {
+  height: 7vh;
+  animation: rouge1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes rouge1 {
+  0% {transform: translate(40vw, 100vh);}
+  100% {transform: translate(40vw, 80vh);}
+}
+
+
+#pinceau1 {
+  height: 15vh;
+  animation: pinceau1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes pinceau1 {
+  0% {transform: translate(2vw, 100vh);}
+  100% {transform: translate(2vw, 85vh);}
+}
+
+
+#pinceau2 {
+  height: 12vh;
+  animation: pinceau2 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes pinceau2 {
+  0% {transform: translate(93vw, 100vh);}
+  100% {transform: translate(93vw, 3vh);}
+}
+
+
+#tablette {
+  height: 25vh;
+  animation: tablette1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes tablette1 {
+  0% {transform: translate(65vw, 100vh);}
+  100% {transform: translate(65vw, 60vh);}
+}
+
+#vase {
+  height: 20vh;
+  animation: vase1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes vase1 {
+  0% {transform: translate(85vw, 100vh);}
+  100% {transform: translate(85vw, 80vh);}
+}
+
+/* position fixe du logo  */
+#logo {
+  height: 30vh;
+  animation: logo1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes logo1 {
+  0% {transform: translate(calc(50vw - 30%), 100vh);}
+  100% {
+    transform: translate(calc(50vw - 30%), 35vh);
+    position: fixed;
+  }
+}
+
+/* position écran 2  */
+#roses {
+  height: 50vh;
+  transform: translate(calc(50vw - 50%), 115vh);
+}
+
+#bandeau {
+  height: 25vh;
+  transform: translate(calc(50vw - 50%), 165vh);
+}
+
+/* #bandeau:hover {
+  transform: translate(calc(50vw - 50%), calc(167vh - 10px));
+  transition: transform 0.5s;
+} */
+
+/* réduction pour téléphone */
+
+@media screen and (max-width:600px) {
+
+  #lierre, #couronne_fleurs, #tablette {
+    display: none;
+  }
+
+  #main {
+    background-size: auto 100%;
+  }
+
+  #roses {
+    height: 30vh;
+  }
+  #bandeau {
+    height: 20vh;
+  }
+}
