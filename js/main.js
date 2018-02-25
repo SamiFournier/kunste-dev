@@ -26,6 +26,22 @@
             }
 
         });
+
+        // position subversive
+
+
+        // fade subversice
+        $(window).on("scroll", function() {
+        	var scrollHeight = Math.floor($(document).height());
+        	var scrollPosition = Math.floor($(window).height() + $(window).scrollTop());
+        	if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+        	    // when scroll to bottom of the page
+              var posTop = $("#bandeau").position().top + ($("#bandeau").height() * 0.33)
+              var posleft = $("#bandeau").position().left + ($("#bandeau").width() * 0.86)
+              $("#subpapier").css({top: posTop, left: posleft, position:'absolute'});
+              $("#subpapier").fadeIn(3000);
+          }
+        });
     });
 
     // Burger Menu
