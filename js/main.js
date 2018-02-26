@@ -28,8 +28,6 @@
         });
 
         // position subversive
-
-
         // fade subversice
         $(window).on("scroll", function() {
         	var scrollHeight = Math.floor($(document).height());
@@ -52,11 +50,11 @@
     });
 
     // startGIF
-    var randomStart = setInterval(function(){
-      var random = Math.floor(Math.random()*4)+1;
-      var imgSrc = "./images/homepage/start" + random + ".png";
-      $("#start").attr("src", imgSrc);
-    }, 200);
+    // var randomStart = setInterval(function(){
+    //   var random = Math.floor(Math.random()*4)+1;
+    //   var imgSrc = "./images/homepage/start" + random + ".png";
+    //   $("#start").attr("src", imgSrc);
+    // }, 200);
 
 
 });

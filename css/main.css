@@ -38,11 +38,11 @@ nav img {
 }
 
 nav a {
-  font-size: 20px;
+  font-size: 16px;
   margin: 0px 15px;
   text-decoration: none;
   color: black;
-  font-weight: 200;
+  font-weight: 700;
 }
 
 
@@ -497,7 +497,7 @@ div.hamburger {
   display: none;
 }
 
-#start {
+/* #start {
   height: 10vh;
   transform: translate(calc(50vw - 50%), 185vh);
 }
@@ -505,7 +505,7 @@ div.hamburger {
 #start:hover {
   transform: translate(calc(50vw - 50%), calc(185vh - 10px));
   transition: transform 0.5s;
-}
+} */
 
 /* réduction pour téléphone */
 
