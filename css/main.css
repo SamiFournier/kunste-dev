@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* loader */
@@ -42,8 +42,27 @@ nav a {
   margin: 0px 15px;
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: .05em;
+  padding: 5px;
 }
+
+
+nav a.menuLink::before, nav a.menuLink::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #000;
+  transition: width .3s;
+  margin: 8px 0px;
+  -webkit-transform-origin: 0% 100%;
+}
+
+nav a.menuLink:hover::after, nav a.menuLink:hover::before {
+  width: 100%;
+}
+
 
 
 @media screen and (max-width: 920px) {
@@ -51,7 +70,7 @@ nav a {
     justify-content: center;
   }
   nav a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -489,7 +508,7 @@ div.hamburger {
 
 #bandeau {
   height: 25vh;
-  transform: translate(calc(50vw - 50%), 165vh);
+  transform: translate(calc(50vw - 50%), 168vh);
 }
 
 #subpapier {
