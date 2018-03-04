@@ -491,6 +491,151 @@ div.hamburger {
   100% {transform: translate(85vw, 80vh);}
 }
 
+#capsule01.loaded {
+  height: 5vh;
+  animation: capsule011 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes capsule011 {
+  0% {transform: translate(23vw, 100vh);}
+  100% {transform: translate(23vw, 5vh);}
+}
+
+#capsule02.loaded {
+  height: 5vh;
+  animation: capsule021 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes capsule021 {
+  0% {transform: translate(40vw, 100vh);}
+  100% {transform: translate(40vw, 50vh);}
+}
+
+#capsule03.loaded {
+  height: 5vh;
+  animation: capsule031 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes capsule031 {
+  0% {transform: translate(65vw, 100vh);}
+  100% {transform: translate(65vw, 37vh);}
+}
+
+#chouchou.loaded {
+  height: 8vh;
+  animation: chouchou1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes chouchou1 {
+  0% {transform: translate(60vw, 100vh);}
+  100% {transform: translate(60vw, 50vh);}
+}
+
+#converse.loaded {
+  height: 13vh;
+  animation: converse1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes converse1 {
+  0% {transform: translate(2vw, 100vh);}
+  100% {transform: translate(2vw, 42vh);}
+}
+
+#tétine.loaded {
+  height: 7vh;
+  animation: tétine1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes tétine1 {
+  0% {transform: translate(45vw, 100vh);}
+  100% {transform: translate(45vw, 92vh);}
+}
+
+#Metro_Lyon01.loaded {
+  height: 5vh;
+  animation: Metro_Lyon011 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes Metro_Lyon011 {
+  0% {transform: translate(35vw, 100vh);}
+  100% {transform: translate(35vw, 47vh);}
+}
+
+#Metro_Lyon02.loaded {
+  height: 5vh;
+  animation: Metro_Lyon021 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes Metro_Lyon021 {
+  0% {transform: translate(62vw, 100vh);}
+  100% {transform: translate(62vw, 20vh);}
+}
+
+#Metro_Paris01.loaded {
+  height: 5vh;
+  animation: Metro_Paris011 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes Metro_Paris011 {
+  0% {transform: translate(10vw, 100vh);}
+  100% {transform: translate(10vw, 12vh);}
+}
+
+#Metro_Paris02.loaded {
+  height: 7vh;
+  animation: Metro_Paris021 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes Metro_Paris021 {
+  0% {transform: translate(12vw, 100vh);}
+  100% {transform: translate(12vw, 89vh);}
+}
+
+#Metro_Paris03.loaded {
+  height: 7vh;
+  animation: Metro_Paris031 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes Metro_Paris031 {
+  0% {transform: translate(92vw, 100vh);}
+  100% {transform: translate(92vw, 15vh);}
+}
+
+#collier_perles.loaded {
+  height: 14vh;
+  animation: collier_perles1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes collier_perles1 {
+  0% {transform: translate(92vw, 100vh);}
+  100% {transform: translate(92vw, 52vh);}
+}
+
+#thé.loaded {
+  height: 9vh;
+  animation: thé1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes thé1 {
+  0% {transform: translate(34vw, 100vh);}
+  100% {transform: translate(34vw, 80vh);}
+}
+
+#parfum2.loaded {
+  height: 15vh;
+  animation: parfum21 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes parfum21 {
+  0% {transform: translate(70vw, 100vh);}
+  100% {transform: translate(70vw, 85vh);}
+}
+
+#app_photo_vintage.loaded {
+  height: 11vh;
+  animation: app_photo_vintage1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes app_photo_vintage1 {
+  0% {transform: translate(12vw, 100vh);}
+  100% {transform: translate(12vw, 76vh);}
+}
+
+#poupee_russe.loaded {
+  height: 13vh;
+  animation: poupee_russe1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
+}
+@keyframes poupee_russe1 {
+  0% {transform: translate(74vw, 100vh);}
+  100% {transform: translate(74vw, 53vh);}
+}
+
+
 /* position fixe du logo  */
 #logo.loaded {
   height: 30vh;
@@ -530,17 +675,13 @@ div.hamburger {
   transition: transform 0.5s;
 } */
 
-/* réduction pour téléphone */
+/* réduction Home pour téléphone */
 
 @media screen and (max-width:600px) {
 
   #lierre, #couronne_fleurs, #tablette {
     display: none;
   }
-
-  /* #main {
-    background-size: auto 100%;
-  } */
 
   #logo {
     height: 20vh;
