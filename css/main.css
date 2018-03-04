@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* loader */
@@ -31,18 +31,20 @@ nav {
   position: fixed;
   top: 0;
   z-index: 100;
+  background: url('../images/motif_galaxy.png');
+  background-size: auto 300px;
 }
 
 nav img {
-  height: 55px;
+  height: 45px;
 }
 
 nav a {
   font-size: 16px;
   margin: 0px 15px;
   text-decoration: none;
-  color: black;
-  font-weight: 800;
+  color: #ffed00;
+  font-weight: bold;
   letter-spacing: .05em;
   padding: 5px;
 }
@@ -53,7 +55,7 @@ nav a.menuLink::before, nav a.menuLink::after {
   display: block;
   width: 0;
   height: 3px;
-  background: #000;
+  background: #ffed00;
   transition: width .3s;
   margin: 8px 0px;
   -webkit-transform-origin: 0% 100%;
