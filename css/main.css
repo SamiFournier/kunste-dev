@@ -105,6 +105,10 @@ div.hamburger {
 
 /* Home */
 
+.hide {
+  display: none;
+}
+
 #main {
   max-width: 100vw;
   background: url(../images/homepage/fond_circus.png) no-repeat center center fixed;
@@ -156,7 +160,7 @@ div.hamburger {
 
 /* Position de chaque images  */
 
-#carte {
+#carte.loaded {
   height: 10vh;
   animation: carte1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -165,7 +169,7 @@ div.hamburger {
   100% {transform: translate(30vw, 30vh);}
 }
 
-#cactus {
+#cactus.loaded {
   height: 28vh;
   animation: cactus1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -174,7 +178,7 @@ div.hamburger {
   100% {transform: translate(60vw, 70vh);}
 }
 
-#doigt_honneur {
+#doigt_honneur.loaded {
   height: 17vh;
   animation: doigt_honneur1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -183,7 +187,7 @@ div.hamburger {
   100% {transform: translate(3vw, 20vh);}
 }
 
-#adobeIndesign {
+#adobeIndesign.loaded {
   height: 10vh;
   animation: adobeIndesign1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -192,7 +196,7 @@ div.hamburger {
   100% {transform: translate(25vw, 60vh);}
 }
 
-#adobePhotoshop {
+#adobePhotoshop.loaded {
   height: 10vh;
   animation: adobePhotoshop1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -201,7 +205,7 @@ div.hamburger {
   100% {transform: translate(3vw, 3vh);}
 }
 
-#adobeIllustrator {
+#adobeIllustrator.loaded {
   height: 10vh;
   animation: adobeIllustrator1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -210,7 +214,7 @@ div.hamburger {
   100% {transform: translate(83vw, 7vh);}
 }
 
-#briquet {
+#briquet.loaded {
   height: 6vh;
   animation: briquet1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -219,7 +223,7 @@ div.hamburger {
   100% {transform: translate(60vw, 40vh);}
 }
 
-#bouteille_eau {
+#bouteille_eau.loaded {
   height: 20vh;
   animation: bouteille_eau1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -228,7 +232,7 @@ div.hamburger {
   100% {transform: translate(20vw, 20vh);}
 }
 
-#bière {
+#bière.loaded {
   height: 10vh;
   animation: bière1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -237,7 +241,7 @@ div.hamburger {
   100% {transform: translate(15vw, 12vh);}
 }
 
-#chat {
+#chat.loaded {
   height: 30vh;
   animation: chat1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -246,7 +250,7 @@ div.hamburger {
   100% {transform: translate(65vw, 2vh);}
 }
 
-#chaussette {
+#chaussette.loaded {
   height: 30vh;
   animation: chaussette1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -255,7 +259,7 @@ div.hamburger {
   100% {transform: translate(65vw, 40vh);}
 }
 
-#carnet {
+#carnet.loaded {
   height: 20vh;
   animation: carnet1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -264,7 +268,7 @@ div.hamburger {
   100% {transform: translate(1vw, 60vh);}
 }
 
-#cigaretteA {
+#cigaretteA.loaded {
   height: 8vh;
   animation: cigaretteA1 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -273,7 +277,7 @@ div.hamburger {
   100% {transform: translate(15vw, 3vh);}
 }
 
-#cigaretteB {
+#cigaretteB.loaded {
   height: 8vh;
   animation: cigaretteB1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -282,7 +286,7 @@ div.hamburger {
   100% {transform: translate(40vw, 30vh);}
 }
 
-#cigaretteC {
+#cigaretteC.loaded {
   height: 8vh;
   animation: cigaretteC1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -291,7 +295,7 @@ div.hamburger {
   100% {transform: translate(70vw, 30vh);}
 }
 
-#culotte {
+#culotte.loaded {
   height: 20vh;
   animation: culotte1 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -300,7 +304,7 @@ div.hamburger {
   100% {transform: translate(45vw, 70vh);}
 }
 
-#collier {
+#collier.loaded {
   height: 22vh;
   animation: collier1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -309,7 +313,7 @@ div.hamburger {
   100% {transform: translate(30vw, 2vh);}
 }
 
-#couronne_fleurs {
+#couronne_fleurs.loaded {
   height: 19vh;
   animation: couronne_fleurs1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -318,7 +322,7 @@ div.hamburger {
   100% {transform: translate(45vw, 5vh);}
 }
 
-#clitoris {
+#clitoris.loaded {
   height: 10vh;
   animation: clitoris1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -327,7 +331,7 @@ div.hamburger {
   100% {transform: translate(40vw, 12vh);}
 }
 
-#iPhone {
+#iPhone.loaded {
   height: 14vh;
   animation: iPhone1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -336,7 +340,7 @@ div.hamburger {
   100% {transform: translate(50vw, 27vh);}
 }
 
-#jetable {
+#jetable.loaded {
   height: 7vh;
   animation: jetable1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -345,7 +349,7 @@ div.hamburger {
   100% {transform: translate(25vw, 50vh);}
 }
 
-#kiki {
+#kiki.loaded {
   height: 17vh;
   animation: kiki1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -354,7 +358,7 @@ div.hamburger {
   100% {transform: translate(90vw, 70vh);}
 }
 
-#tasse {
+#tasse.loaded {
   height: 7vh;
   animation: tasse1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -363,7 +367,7 @@ div.hamburger {
   100% {transform: translate(55vw, 25vh);}
 }
 
-#lierre {
+#lierre.loaded {
   height: 25vh;
   animation: lierre1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -372,7 +376,7 @@ div.hamburger {
   100% {transform: translate(8vw, 33vh);}
 }
 
-#livre {
+#livre.loaded {
   height: 10vh;
   animation: livre1 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -381,7 +385,7 @@ div.hamburger {
   100% {transform: translate(22vw, 80vh);}
 }
 
-#lunettes {
+#lunettes.loaded {
   height: 5vh;
   animation: lunettes1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -390,7 +394,7 @@ div.hamburger {
   100% {transform: translate(25vw, 90vh);}
 }
 
-#MacBook {
+#MacBook.loaded {
   height: 40vh;
   animation: MacBook1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -399,7 +403,7 @@ div.hamburger {
   100% {transform: translate(80vw, 20vh);}
 }
 
-#parfum {
+#parfum.loaded {
   height: 15vh;
   animation: parfum1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -409,7 +413,7 @@ div.hamburger {
 }
 
 
-#photoA {
+#photoA.loaded {
   height: 10vh;
   animation: photoA1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -419,7 +423,7 @@ div.hamburger {
 }
 
 
-#photoL {
+#photoL.loaded {
   height: 10vh;
   animation: photoL1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -429,7 +433,7 @@ div.hamburger {
 }
 
 
-#photoK {
+#photoK.loaded {
   height: 10vh;
   animation: photoK1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -439,7 +443,7 @@ div.hamburger {
 }
 
 
-#rouge {
+#rouge.loaded {
   height: 7vh;
   animation: rouge1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -449,7 +453,7 @@ div.hamburger {
 }
 
 
-#pinceau1 {
+#pinceau1.loaded {
   height: 15vh;
   animation: pinceau1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -459,7 +463,7 @@ div.hamburger {
 }
 
 
-#pinceau2 {
+#pinceau2.loaded {
   height: 12vh;
   animation: pinceau2 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -469,7 +473,7 @@ div.hamburger {
 }
 
 
-#tablette {
+#tablette.loaded {
   height: 25vh;
   animation: tablette1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -478,7 +482,7 @@ div.hamburger {
   100% {transform: translate(65vw, 60vh);}
 }
 
-#vase {
+#vase.loaded {
   height: 20vh;
   animation: vase1 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
@@ -488,7 +492,7 @@ div.hamburger {
 }
 
 /* position fixe du logo  */
-#logo {
+#logo.loaded {
   height: 30vh;
   animation: logo1 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0S 1 normal both;
 }

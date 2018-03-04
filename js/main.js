@@ -6,7 +6,8 @@
       //loader
   $(window).on('load', function() {
     // Animate loader off screen
-    $("#se-pre-con").fadeOut(800);;
+    $("#se-pre-con").fadeOut(800);
+    $("img").removeClass("hide").addClass("loaded");
   });
 
   $(document).ready(function(){
