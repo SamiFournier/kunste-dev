@@ -830,6 +830,9 @@ div.hamburger {
   #bandeau_up_text {
     font-size: 16px;
   }
+  #nous_savons_title, #nous_avons_title {
+    max-width: 45vw;
+  }
   .bloc {
     max-width: 70%;
   }
