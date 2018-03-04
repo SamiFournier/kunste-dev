@@ -30,7 +30,7 @@
 
         // img fade out and in
         $("#main").on("click", "img.loaded", function(e){
-          $(this).fadeOut(300).delay(3000).fadeIn(300);
+          $(this).fadeOut(300).delay(1500).fadeIn(300);
           console.log(e);
         });
 

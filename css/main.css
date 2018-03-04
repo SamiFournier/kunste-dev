@@ -3,9 +3,16 @@
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  max-width: 100vw;
 }
 
-/* loader */
+hr {
+  border-width: 0px;
+}
+/* =====================
+      LOADER
+===================== */
+
 
 #se-pre-con {
 	position: fixed;
@@ -18,7 +25,9 @@ body {
   background-size: auto 100px;
 }
 
-/* navbar  */
+/* =====================
+      NAVBAR
+===================== */
 
 nav {
   display: flex;
@@ -44,7 +53,7 @@ nav a {
   margin: 0px 15px;
   text-decoration: none;
   color: #ffed00;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: .05em;
   padding: 5px;
 }
@@ -61,7 +70,7 @@ nav a.menuLink::before, nav a.menuLink::after {
   -webkit-transform-origin: 0% 100%;
 }
 
-nav a.menuLink:hover::after, nav a.menuLink:hover::before {
+nav a.menuLink:hover::after, nav a.menuLink:hover::before, nav a.menuLink.active:after, nav a.menuLink.active:before {
   width: 100%;
 }
 
@@ -87,7 +96,10 @@ nav a.menuLink:hover::after, nav a.menuLink:hover::before {
   }
 }
 
-/* burger  */
+/* =====================
+      BURGER MENU
+===================== */
+
 
 div.hamburger {
   position: fixed;
@@ -105,7 +117,10 @@ div.hamburger {
   }
 }
 
-/* Home */
+/* =====================
+      HOMEPAGE
+===================== */
+
 
 .hide {
   display: none;
@@ -698,5 +713,108 @@ div.hamburger {
 
   #subpapier {
     height: 4vh;
+  }
+}
+
+
+
+
+
+/* =====================
+      HISTOIRE
+===================== */
+
+
+#histoire {
+  min-height: 100vh;
+  background: url('../images/Histoire/motif_fleurs.png');
+  background-size: auto 300px;
+  opacity: 0.9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#bandeau_up_container {
+  position: relative;
+  margin-top: 80px;
+  align-self: center;
+  text-align: center;
+}
+
+#bandeau_up {
+  width: 45vw;
+}
+
+#bandeau_up_text {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 90%;
+}
+
+#team_picture {
+  max-width: 65%;
+  align-self: center;
+  margin-top: 40px;
+}
+
+#prop_valeur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin: 40px 0;
+}
+
+#nous_savons, #nous_avons {
+  display: flex;
+  flex-direction: column;
+}
+
+#nous_savons_title, #nous_avons_title {
+  align-self: center;
+  max-width: 25vw;
+}
+
+.bloc_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc {
+  max-width: 70%;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.bloc_text {
+  position: absolute;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 62%;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media screen and (max-width:900px) {
+  #bandeau_up {
+    width: 70vw;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  #bandeau_up {
+    width: 80vw;
+  }
+  #bandeau_up_text {
+    font-size: 16px;
   }
 }
