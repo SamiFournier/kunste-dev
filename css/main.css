@@ -824,6 +824,9 @@ div.hamburger {
 }
 
 @media screen and (max-width:600px) {
+  #histoire {
+    background-size: auto 200px;
+  }
   #bandeau_up {
     width: 80vw;
   }
