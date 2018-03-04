@@ -766,13 +766,13 @@ div.hamburger {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
-  margin: 40px 0;
+  width: 100%;
 }
 
 #nous_savons, #nous_avons {
   display: flex;
   flex-direction: column;
+  margin: 40px 0;
 }
 
 #nous_savons_title, #nous_avons_title {
@@ -808,6 +808,19 @@ div.hamburger {
     width: 70vw;
   }
 
+  #prop_valeur {
+    flex-direction: column;
+  }
+  .bloc {
+    max-width: 50%;
+  }
+  .bloc_text {
+    width: 45%;
+  }
+  #team_picture {
+    max-width: 80%;
+  }
+
 }
 
 @media screen and (max-width:600px) {
@@ -816,5 +829,14 @@ div.hamburger {
   }
   #bandeau_up_text {
     font-size: 16px;
+  }
+  .bloc {
+    max-width: 70%;
+  }
+  .bloc_text {
+    width: 65%;
+  }
+  #team_picture {
+    max-width: 95%;
   }
 }
