@@ -743,6 +743,17 @@ div.hamburger {
   transform: translate(0, -13vh);
 }
 
+#nous:hover {
+  animation: shake 0.15s linear 0S infinite normal;
+}
+@keyframes shake {
+  0% {transform: translate(0, 0);}
+  25% {transform: translate(-5px, 0);}
+  75% {transform: translate(5px, 0);}
+  100% {transform: translate(0, 0);}
+}
+
+
 @media screen and (max-width:600px) {
   #nous, #creons, #mesure, #god {
     max-width: 90%;
@@ -974,21 +985,20 @@ div.hamburger {
 
 
 /* =====================
-      PORTFOLIO
+      FOOTER
 ===================== */
-
-#portfolio {
-  height: 100vh;
-  width: 100vw;
-  background: url('../images/motif_galaxy.png');
-  background-size: auto 300px;
+footer {
+  height: 11vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#portfolio img {
+.footer  {
   align-self: center;
-  max-width: 80%;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  margin: 0 15px;
+}
+
+.footer img {
+  max-height: 7vh;
 }
