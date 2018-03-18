@@ -740,11 +740,10 @@ div.hamburger {
   width: 600px;
   max-width: 60%;
   margin-top: 0;
-  transform: translate(0, -13vh);
 }
 
 #nous:hover {
-  animation: shake 0.15s linear 0S infinite normal;
+  animation: shake 0.1s cubic-bezier(0,.74,.91,.41) 0S infinite normal;
 }
 @keyframes shake {
   0% {transform: translate(0, 0);}
