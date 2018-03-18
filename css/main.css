@@ -718,16 +718,36 @@ div.hamburger {
   background-size: auto 300px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-#nous {
+#nous, #creons {
+  align-self: center;
+  width: 450px;
+  max-width: 60%;
+  margin-top: 5vh;
+  z-index: 1;
+}
+#mesure {
   align-self: center;
   width: 600px;
   max-width: 60%;
   margin-top: 5vh;
+  transform: translate(0, -13vh);
+}
+#god {
+  align-self: flex-end;
+  width: 600px;
+  max-width: 60%;
+  margin-top: 0;
+  transform: translate(0, -13vh);
 }
 
-
+@media screen and (max-width:600px) {
+  #nous, #creons, #mesure, #god {
+    max-width: 90%;
+  }
+}
 /* =====================
       AGENCE
 ===================== */
@@ -819,8 +839,8 @@ div.hamburger {
   }
   #agence .petit {
     max-width: 35%;
-    font-size: 16px;
-    margin: 4vh 15px;
+    font-size: 14px;
+    margin: 4vh 10px;
   }
 
 }
