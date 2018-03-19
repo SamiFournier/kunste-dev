@@ -34,7 +34,7 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3); 
   width: 100%;
   max-width: 100%;
   position: fixed;
@@ -716,6 +716,7 @@ div.hamburger {
   overflow: hidden;
   background: url('../images/univers/motif_galaxy.png');
   background-size: auto 300px;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -733,17 +734,18 @@ div.hamburger {
   width: 600px;
   max-width: 60%;
   margin-top: 5vh;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   transform: translate(0, -13vh);
 }
 #god {
   align-self: flex-end;
-  width: 600px;
+  width: 400px;
   max-width: 60%;
   margin-top: 0;
 }
 
 #nous:hover {
-  animation: shake 0.1s cubic-bezier(0,.74,.91,.41) 0S infinite normal;
+  animation: shake 0.01s cubic-bezier(0,.74,.91,.41) 0S infinite normal;
 }
 @keyframes shake {
   0% {transform: translate(0, 0);}
@@ -801,7 +803,7 @@ div.hamburger {
   justify-content: center;
   width: 80%;
   align-self: center;
-  margin-top: 10vh;
+  margin: 10vh 0;
 }
 
 #agence .petit {
@@ -809,7 +811,7 @@ div.hamburger {
   width: 600px;
   height: 70px;
   max-width: 25%;
-  margin: 4vh 25px;
+  margin: 5vh 25px;
   text-align: center;
   font-size: 20px;
   background-color: white;
@@ -865,7 +867,7 @@ div.hamburger {
   background: url('../images/Histoire/motif_fleurs.png');
   background-size: auto 300px;
   opacity: 0.9;
-
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

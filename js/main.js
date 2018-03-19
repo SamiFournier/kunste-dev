@@ -68,12 +68,12 @@
         $(window).scroll(function(event){
            var st = $(this).scrollTop();
            if ($(window).width()>600) {
-             if (st > lastScrollTop){
+             if ((st > lastScrollTop) || (st==0)){
                $('nav').fadeOut()
              } else {
                $('nav').fadeIn();
              }
-             lastScrollTop = st;             
+             lastScrollTop = st;
            }
         });
     });
