@@ -40,17 +40,17 @@
 
         // position subversive
         // fade subversice
-        $(window).on("scroll", function() {
-        	var scrollHeight = Math.floor($(window).height()*2);
-        	var scrollPosition = Math.floor($(window).height() + $(window).scrollTop());
-        	if (scrollPosition > scrollHeight*0.9) {
-        	    // when scroll to bottom of the page
-              var posTop = $("#bandeau").position().top + ($("#bandeau").height() * 0.33)
-              var posleft = $("#bandeau").position().left + ($("#bandeau").width() * 0.86)
-              $("#subpapier").css({top: posTop, left: posleft, position:'absolute'});
-              $("#subpapier").fadeIn(2000);
-          }
-        });
+        // $(window).on("scroll", function() {
+        // 	var scrollHeight = Math.floor($(window).height()*2);
+        // 	var scrollPosition = Math.floor($(window).height() + $(window).scrollTop());
+        // 	if (scrollPosition > scrollHeight*0.9) {
+        // 	    // when scroll to bottom of the page
+        //       var posTop = $("#bandeau").position().top + ($("#bandeau").height() * 0.33)
+        //       var posleft = $("#bandeau").position().left + ($("#bandeau").width() * 0.86)
+        //       $("#subpapier").css({top: posTop, left: posleft, position:'absolute'});
+        //       $("#subpapier").fadeIn(2000);
+        //   }
+        // });
     });
 
     // Menu

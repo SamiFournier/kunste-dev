@@ -34,7 +34,7 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3); 
+  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   max-width: 100%;
   position: fixed;
@@ -248,12 +248,12 @@ div.hamburger {
 }
 
 #bière.loaded {
-  height: 10vh;
+  height: 14vh;
   animation: bière1 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1S 1 normal both;
 }
 @keyframes bière1 {
   0% {transform: translate(15vw, 100vh);}
-  100% {transform: translate(15vw, 12vh);}
+  100% {transform: translate(15vw, 14vh);}
 }
 
 #chat.loaded {
@@ -703,6 +703,30 @@ div.hamburger {
     height: 4vh;
   }
 }
+
+/* =====================
+      Creative agency
+===================== */
+#creative {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: url(../images/creative/fond.png) no-repeat center center;
+  background-size: cover;
+}
+
+#creative img {
+  position: absolute;
+  width: 80%;
+  margin-top: 35px;
+}
+
+
+
 
 
 /* =====================
