@@ -53,29 +53,37 @@
         // });
     });
 
+    // kMoove
+    $(".coverK").hover(function(){
+      var direction = Math.floor(Math.random()*8);
+      var base = "kMoove"
+      var res = base.concat(direction);
+      $(this).addClass(res);
+    })
+
     // Menu
     // hide .navbar first
-    $("nav").hide();
-
-    $(function () {
-        // Burger Menu
-        $(".hamburger").click(function(){
-            $('nav').fadeToggle();
-        });
-
-        // fade in .navbar
-        var lastScrollTop = 0;
-        $(window).scroll(function(event){
-           var st = $(this).scrollTop();
-           if ($(window).width()>600) {
-             if ((st > lastScrollTop) || (st==0)){
-               $('nav').fadeOut()
-             } else {
-               $('nav').fadeIn();
-             }
-             lastScrollTop = st;
-           }
-        });
-    });
+    // $("nav").hide();
+    //
+    // $(function () {
+    //     // Burger Menu
+    //     $(".hamburger").click(function(){
+    //         $('nav').fadeToggle();
+    //     });
+    //
+    //     // fade in .navbar
+    //     var lastScrollTop = 0;
+    //     $(window).scroll(function(event){
+    //        var st = $(this).scrollTop();
+    //        if ($(window).width()>600) {
+    //          if ((st > lastScrollTop) || (st==0)){
+    //            $('nav').fadeOut()
+    //          } else {
+    //            $('nav').fadeIn();
+    //          }
+    //          lastScrollTop = st;
+    //        }
+    //     });
+    // });
 });
 }(jQuery));

@@ -29,14 +29,14 @@ hr {
       NAVBAR
 ===================== */
 
-nav {
+/* nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -94,14 +94,14 @@ nav a.menuLink:hover::after, nav a.menuLink:hover::before, nav a.menuLink.active
   nav a {
     margin: 0px 5px;
   }
-}
+
 
 /* =====================
       BURGER MENU
 ===================== */
 
 
-div.hamburger {
+/* div.hamburger {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -115,7 +115,7 @@ div.hamburger {
   div.hamburger {
     display: block;
   }
-}
+} */
 
 /* =====================
       HOMEPAGE
@@ -704,10 +704,12 @@ div.hamburger {
   }
 }
 
+
+
 /* =====================
       Creative agency
 ===================== */
-#creative {
+/* #creative {
   min-height: 100vh;
   width: 100vw;
   max-width: 100%;
@@ -721,11 +723,12 @@ div.hamburger {
 
 #creative img {
   position: absolute;
-  width: 80%;
+  max-width: 80%;
+  width: 1100px;
   margin-top: 35px;
 }
 
-
+ */
 
 
 
@@ -785,9 +788,240 @@ div.hamburger {
   }
 }
 /* =====================
-      AGENCE
+Contact
 ===================== */
 
+#contact {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact::after {
+  content: "";
+  background: url('../images/contact/fond.png');
+  background-size: auto 800px;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#hideK {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 1000;
+}
+
+#hideK img {
+  margin: 0px;
+  width: 5%;
+  height: 5%;
+  opacity: 1;
+  /* box-shadow: -5px 5px 0px black; */
+}
+
+.kMoove0 {
+  animation: kMoove0 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove0 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(0, -200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(0, -200vh) scale(3);
+    opacity: 0;
+  }
+}
+
+.kMoove1 {
+  animation: kMoove1 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove1 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(200vh, -200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(200vh, -200vh) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove2 {
+  animation: kMoove2 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(200vh, 0) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(200vh, 0) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove3 {
+  animation: kMoove3 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove3 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(200vh, 200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(200vh, 200vh) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove4 {
+  animation: kMoove4 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove4 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(0, 200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(0, 200vh) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove5 {
+  animation: kMoove5 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove5 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(-200vh, 200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(-200vh, 200vh) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove6 {
+  animation: kMoove6 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove6 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(-200vh, 0) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(-200vh, 0) scale(3);
+    opacity: 0;
+  }
+}
+.kMoove7 {
+  animation: kMoove7 2s ease-out 0s 1 normal both;
+}
+
+@keyframes kMoove7 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1,
+  }
+  99% {
+    transform: translate(-200vh, -200vh) scale(3);
+    opacity: 1,
+  }
+  100% {
+    transform: translate(-200vh, -200vh) scale(3);
+    opacity: 0;
+  }
+}
+
+#contactInfos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contactInfos img {
+  align-self: center;
+}
+
+#noms {
+  height: 10vh;
+}
+
+#mailK {
+  height: 10vh;
+  margin-top: 40px;
+}
+
+#num {
+  height: 8vh;
+  margin-top: 40px;
+}
+
+#band {
+  height: 25vh;
+}
+
+@media screen and (max-width:900px) {
+  #hideK img {
+    width: 6.25%;
+    height: 6.25%;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  #hideK img {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+
+/* =====================
+      AGENCE
+===================== */
+/*
 #agence {
   min-height: 100vh;
   width: 100vw;
@@ -879,13 +1113,13 @@ div.hamburger {
     margin: 4vh 10px;
   }
 
-}
+} */
 
 /* =====================
       HISTOIRE
 ===================== */
 
-
+/*
 #histoire {
   min-height: 100vh;
   background: url('../images/Histoire/motif_fleurs.png');
@@ -1006,7 +1240,7 @@ div.hamburger {
   #team_picture {
     max-width: 95%;
   }
-}
+} */
 
 
 /* =====================
@@ -1016,14 +1250,17 @@ footer {
   height: 11vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  max-width: 100vw;
 }
 
 .footer  {
   align-self: center;
-  margin: 0 15px;
+  margin: 10px 15px;
 }
 
 .footer img {
   max-height: 7vh;
+  max-width: 100vw;
 }
