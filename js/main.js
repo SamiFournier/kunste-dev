@@ -61,7 +61,7 @@
       $(this).addClass("kMoove");
     })
 
-    $('.coverK').bind('touchstart', function(e) {
+    $('.coverK').bind('touchstart touchend', function(e) {
         e.preventDefault();
         $(this).addClass("kMoove");
     });
