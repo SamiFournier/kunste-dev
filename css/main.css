@@ -818,161 +818,223 @@ Contact
   flex-wrap: wrap;
   position: absolute;
   z-index: 1000;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;   
 }
 
 #hideK img {
   margin: 0px;
   width: 5%;
   height: 5%;
-  opacity: 1;
   /* box-shadow: -5px 5px 0px black; */
 }
+.kMoove {
+  opacity: 0;
+  z-index: -1000;
+}
 
-.kMoove0 {
-  animation: kMoove0 2s ease-out 0s 1 normal both;
+
+/* .kMoove0 {
+  animation: kMoove0 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove0 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(0, -200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(0, -200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 
 .kMoove1 {
-  animation: kMoove1 2s ease-out 0s 1 normal both;
+  animation: kMoove1 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove1 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(200vh, -200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(200vh, -200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove2 {
-  animation: kMoove2 2s ease-out 0s 1 normal both;
+  animation: kMoove2 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove2 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(200vh, 0) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(200vh, 0) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove3 {
-  animation: kMoove3 2s ease-out 0s 1 normal both;
+  animation: kMoove3 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove3 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(200vh, 200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(200vh, 200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove4 {
-  animation: kMoove4 2s ease-out 0s 1 normal both;
+  animation: kMoove4 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove4 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(0, 200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(0, 200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove5 {
-  animation: kMoove5 2s ease-out 0s 1 normal both;
+  animation: kMoove5 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove5 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(-200vh, 200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(-200vh, 200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove6 {
-  animation: kMoove6 2s ease-out 0s 1 normal both;
+  animation: kMoove6 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove6 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(-200vh, 0) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(-200vh, 0) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
 }
 .kMoove7 {
-  animation: kMoove7 2s ease-out 0s 1 normal both;
+  animation: kMoove7 1s ease-out 0s 1 normal both;
 }
 
 @keyframes kMoove7 {
   0% {
     transform: translate(0, 0) scale(1);
-    opacity: 1,
+    opacity: 1;
+  }
+  1% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   99% {
     transform: translate(-200vh, -200vh) scale(3);
-    opacity: 1,
+    opacity: 1;
+    box-shadow: -5px 5px 0px black;
   }
   100% {
     transform: translate(-200vh, -200vh) scale(3);
     opacity: 0;
+    box-shadow: -5px 5px 0px black;
   }
-}
+} */
 
 #contactInfos {
   min-height: 100vh;
@@ -982,6 +1044,7 @@ Contact
 }
 #contactInfos img {
   align-self: center;
+  max-width: 95vw;
 }
 
 #noms {

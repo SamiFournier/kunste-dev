@@ -55,11 +55,16 @@
 
     // kMoove
     $(".coverK").hover(function(){
-      var direction = Math.floor(Math.random()*8);
-      var base = "kMoove"
-      var res = base.concat(direction);
-      $(this).addClass(res);
+      // var direction = Math.floor(Math.random()*8);
+      // var base = "kMoove"
+      // var res = base.concat(direction);
+      $(this).addClass("kMoove");
     })
+
+    $('.coverK').bind('touchstart', function(e) {
+        e.preventDefault();
+        $(this).addClass("kMoove");
+    });
 
     // Menu
     // hide .navbar first
