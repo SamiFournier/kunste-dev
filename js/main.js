@@ -61,10 +61,7 @@
       $(this).addClass("kMoove");
     })
 
-    $('.coverK').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).addClass("kMoove");
-    });
+    $('.hideK').bind('touchstart', function() {});
 
     // Menu
     // hide .navbar first
