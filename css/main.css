@@ -837,6 +837,7 @@ Contact
 #contactInfos img {
   align-self: center;
   max-width: 95vw;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
 #noms {
