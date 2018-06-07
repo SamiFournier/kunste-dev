@@ -5,6 +5,26 @@
     // Animate loader off screen
     $("#se-pre-con").fadeOut(800);
     $("img").removeClass("hide").addClass("loaded");
+
+    var nbLigne = 0;
+    var nbColonne = 0;
+
+    if ($(window).width()<600) {
+      nbColonne = 10
+    } else if ($(window).width()<900) {
+      nbColonne = 16
+    } else {
+      nbColonne = 20
+    }
+
+    nbLigne = Math.floor($(window).height()/($(window).width()/nbColonne*1.11))+1
+
+    for (var i = 0; i < (nbColonne*nbLigne); i++) {
+        $("#hideK").append('<img class="coverK" src="./images/homepage/kseul.png" alt="">');
+    }
+
+
+
   });
 
 
@@ -54,16 +74,38 @@
     });
 
     // kMoove
-    $(".coverK").hover(function(){
+    var playOneTime = false;
+    $(document).on("mouseenter",".coverK", function(){
       // var direction = Math.floor(Math.random()*8);
       // var base = "kMoove"
       // var res = base.concat(direction);
+
+
+      // audioElement.addEventListener('ended', function() {
+      //   this.play();
+      // }, false);
+
       $(this).addClass("kMoove");
+      if (document.querySelectorAll(".kMoove").length == document.querySelectorAll(".coverK").length && !playOneTime) {
+          $('body').addClass("shake-hard").delay(1000).queue(function(next){
+               $(this).removeClass("shake-hard");
+               next();
+          });
+          // $("#bravo").show().delay(3000).fadeOut(2000);
+          playOneTime = true;
+      }
     })
 
     $('.coverK').bind('touchstart', function() {
       $(".coverK").addClass("kMoove");
     });
+
+
+
+
+
+
+
 
     // Menu
     // hide .navbar first

@@ -40,7 +40,7 @@ hr {
   position: fixed;
   top: 0;
   z-index: 100;
-  background: url('../images/univers/motif_galaxy.png');
+  background: url('../images/nav/motif_galaxy.png');
   background-size: auto 300px;
 }
 
@@ -707,32 +707,6 @@ nav a.menuLink:hover::after, nav a.menuLink:hover::before, nav a.menuLink.active
 
 
 /* =====================
-      Creative agency
-===================== */
-/* #creative {
-  min-height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background: url(../images/creative/fond.png) no-repeat center center;
-  background-size: cover;
-}
-
-#creative img {
-  position: absolute;
-  max-width: 80%;
-  width: 1100px;
-  margin-top: 35px;
-}
-
- */
-
-
-
-/* =====================
       UNIVERS
 ===================== */
 
@@ -741,7 +715,7 @@ nav a.menuLink:hover::after, nav a.menuLink:hover::before, nav a.menuLink.active
   width: 100vw;
   max-width: 100%;
   overflow: hidden;
-  background: url('../images/univers/motif_galaxy.png');
+  background: url('../images/homepage/motif_galaxy.png');
   background-size: auto 300px;
   background-attachment: fixed;
   display: flex;
@@ -799,7 +773,7 @@ Contact
 
 #contact::after {
   content: "";
-  background: url('../images/contact/fond.png');
+  background: url('../images/homepage/fond.png');
   background-size: auto 800px;
   opacity: 0.6;
   top: 0;
@@ -813,228 +787,46 @@ Contact
 #hideK {
   margin: 0px;
   padding: 0px;
+  min-height: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   position: absolute;
   z-index: 1000;
   -webkit-user-select: none;
-  -webkit-touch-callout: none;   
+  -webkit-touch-callout: none;
 }
 
 #hideK img {
   margin: 0px;
   width: 5%;
   height: 5%;
+  z-index: 10000;
+
   /* box-shadow: -5px 5px 0px black; */
 }
+
+#hideK img#bravo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 50vh;
+  z-index: 100000;
+  display: none;
+
+  /* box-shadow: -5px 5px 0px black; */
+}
+
 .kMoove {
   opacity: 0;
   z-index: -1000;
 }
 
-
-/* .kMoove0 {
-  animation: kMoove0 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove0 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(0, -200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(0, -200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-
-.kMoove1 {
-  animation: kMoove1 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove1 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(200vh, -200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(200vh, -200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove2 {
-  animation: kMoove2 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove2 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(200vh, 0) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(200vh, 0) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove3 {
-  animation: kMoove3 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove3 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(200vh, 200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(200vh, 200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove4 {
-  animation: kMoove4 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove4 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(0, 200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(0, 200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove5 {
-  animation: kMoove5 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove5 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(-200vh, 200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(-200vh, 200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove6 {
-  animation: kMoove6 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove6 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(-200vh, 0) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(-200vh, 0) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-}
-.kMoove7 {
-  animation: kMoove7 1s ease-out 0s 1 normal both;
-}
-
-@keyframes kMoove7 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  1% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  99% {
-    transform: translate(-200vh, -200vh) scale(3);
-    opacity: 1;
-    box-shadow: -5px 5px 0px black;
-  }
-  100% {
-    transform: translate(-200vh, -200vh) scale(3);
-    opacity: 0;
-    box-shadow: -5px 5px 0px black;
-  }
-} */
 
 #contactInfos {
   min-height: 100vh;
@@ -1079,231 +871,6 @@ Contact
     height: 10%;
   }
 }
-
-
-/* =====================
-      AGENCE
-===================== */
-/*
-#agence {
-  min-height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  background: url('../images/agence/feuilles.png') no-repeat #afd097;
-  background-size: 100vw auto;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-#agence .grand {
-  align-self: center;
-  width: 600px;
-  height: 120px;
-  max-width: 30%;
-  margin-top: 12vh;
-  text-align: center;
-  font-size: 50px;
-  background-color: white;
-  border: 5px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  box-shadow: -25px 25px 0px black;
-}
-
-#agence .grand p {
-  align-self: center;
-  margin: 0;
-}
-
-#agence #agence_small {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 80%;
-  align-self: center;
-  margin: 10vh 0;
-}
-
-#agence .petit {
-  align-self: center;
-  width: 600px;
-  height: 70px;
-  max-width: 25%;
-  margin: 5vh 25px;
-  text-align: center;
-  font-size: 20px;
-  background-color: white;
-  border: 3px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  box-shadow: -15px 15px 0px black;
-}
-
-#agence .petit p {
-  align-self: center;
-  margin: 0;
-}
-
-@media screen and (max-width:900px) {
-  #agence .grand {
-    max-width: 40%;
-    font-size: 40px;
-  }
-  #agence #agence_small {
-    width: 90%;
-  }
-  #agence .petit {
-    font-size: 18px;
-    margin: 4vh 20px;
-  }
-}
-
-@media screen and (max-width:640px) {
-  #agence .grand {
-    max-width: 60%;
-    font-size: 40px;
-  }
-  #agence #agence_small {
-    width: 98%;
-  }
-  #agence .petit {
-    max-width: 35%;
-    font-size: 14px;
-    margin: 4vh 10px;
-  }
-
-} */
-
-/* =====================
-      HISTOIRE
-===================== */
-
-/*
-#histoire {
-  min-height: 100vh;
-  background: url('../images/Histoire/motif_fleurs.png');
-  background-size: auto 300px;
-  opacity: 0.9;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-#bandeau_up_container {
-  position: relative;
-  margin-top: 80px;
-  align-self: center;
-  text-align: center;
-}
-
-#bandeau_up {
-  width: 45vw;
-}
-
-#bandeau_up_text {
-  position: absolute;
-  font-size: 25px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  width: 90%;
-}
-
-#team_picture {
-  max-width: 65%;
-  align-self: center;
-  margin-top: 40px;
-}
-
-#prop_valeur {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-#nous_savons, #nous_avons {
-  display: flex;
-  flex-direction: column;
-  margin: 40px 0;
-}
-
-#nous_savons_title, #nous_avons_title {
-  align-self: center;
-  max-width: 25vw;
-}
-
-.bloc_container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.bloc {
-  max-width: 70%;
-  align-self: center;
-  margin-top: 20px;
-}
-
-.bloc_text {
-  position: absolute;
-  font-size: 16px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 62%;
-  text-align: center;
-  font-weight: 100;
-}
-
-@media screen and (max-width:900px) {
-  #bandeau_up {
-    width: 70vw;
-  }
-
-  #prop_valeur {
-    flex-direction: column;
-  }
-  .bloc {
-    max-width: 50%;
-  }
-  .bloc_text {
-    width: 45%;
-  }
-  #team_picture {
-    max-width: 80%;
-  }
-
-}
-
-@media screen and (max-width:600px) {
-  #histoire {
-    background-size: auto 200px;
-  }
-  #bandeau_up {
-    width: 80vw;
-  }
-  #bandeau_up_text {
-    font-size: 16px;
-  }
-  #nous_savons_title, #nous_avons_title {
-    max-width: 45vw;
-  }
-  .bloc {
-    max-width: 70%;
-  }
-  .bloc_text {
-    width: 65%;
-  }
-  #team_picture {
-    max-width: 95%;
-  }
-} */
 
 
 /* =====================
