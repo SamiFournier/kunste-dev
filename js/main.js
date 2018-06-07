@@ -87,7 +87,7 @@
 
       $(this).addClass("kMoove");
       if (document.querySelectorAll(".kMoove").length == document.querySelectorAll(".coverK").length && !playOneTime) {
-          $('body').addClass("shake-hard").delay(1000).queue(function(next){
+          $('body').addClass("shake-hard").delay(700).queue(function(next){
                $(this).removeClass("shake-hard");
                next();
           });
