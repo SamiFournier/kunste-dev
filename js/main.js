@@ -71,6 +71,11 @@
         //       $("#subpapier").fadeIn(2000);
         //   }
         // });
+
+        $( "#cataLink" ).on( "click", function() {
+          window.location.replace("http://kunste.eu");
+          console.log("link clicked");
+        });
     });
 
     // kMoove

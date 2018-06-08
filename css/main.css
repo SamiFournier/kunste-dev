@@ -898,3 +898,29 @@ footer {
   max-height: 7vh;
   max-width: 100vw;
 }
+
+
+/* =====================
+      catalogue
+===================== */
+
+#catalogue {
+  max-width: 100vw;
+  background: url(../images/catalogue/fond2.png) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#catalogue a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#catalogue a img {
+  align-self: center;
+  max-width: 95vw;
+}
