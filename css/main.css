@@ -915,12 +915,22 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+
 #catalogue a {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 #catalogue a img {
   align-self: center;
   max-width: 95vw;
+}
+
+#doigt:hover {
+  animation: shake 0.01s cubic-bezier(0,.74,.91,.41) 0S infinite normal;
+}
+
+#doigt, #animation {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
