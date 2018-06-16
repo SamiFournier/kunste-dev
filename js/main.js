@@ -91,7 +91,6 @@
       // }, false);
 
       $(this).addClass("kMoove");
-      console.log("ok1");
       if (document.querySelectorAll(".kMoove").length == document.querySelectorAll(".coverK").length && !playOneTime) {
           $('body').addClass("shake-hard").delay(500).queue(function(next){
                $(this).removeClass("shake-hard");
@@ -104,7 +103,6 @@
 
     $('.coverK').bind('touchstart', function() {
       $(".coverK").addClass("kMoove");
-      console.log("ok2");
     });
 
 
