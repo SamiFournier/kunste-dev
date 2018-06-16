@@ -9,15 +9,15 @@
     var nbLigne = 0;
     var nbColonne = 0;
 
-    if ($(window).width()<600) {
+    if ($("#contact").width()<600) {
       nbColonne = 10
-    } else if ($(window).width()<900) {
+    } else if ($("#contact").width()<900) {
       nbColonne = 16
     } else {
       nbColonne = 20
     }
 
-    nbLigne = Math.floor($(window).height()/($(window).width()/nbColonne*1.11))+1
+    nbLigne = Math.floor($("#contact").height()/($("#contact").width()/nbColonne*1.11))+1
 
     for (var i = 0; i < (nbColonne*nbLigne); i++) {
         $("#hideK").append('<img class="coverK" src="./images/homepage/kseul.png" alt="">');
@@ -91,6 +91,7 @@
       // }, false);
 
       $(this).addClass("kMoove");
+      console.log("ok1");
       if (document.querySelectorAll(".kMoove").length == document.querySelectorAll(".coverK").length && !playOneTime) {
           $('body').addClass("shake-hard").delay(500).queue(function(next){
                $(this).removeClass("shake-hard");
@@ -103,6 +104,7 @@
 
     $('.coverK').bind('touchstart', function() {
       $(".coverK").addClass("kMoove");
+      console.log("ok2");
     });
 
 
